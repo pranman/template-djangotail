@@ -18,6 +18,7 @@ Django-Tailwind-DaisyUI Template
 [Installation](#installation)&nbsp;•
 [Usage](#usage)&nbsp;•
 [Configuration](#configuration)&nbsp;•
+[Acknowledgements](#acknowledgements)&nbsp;•
 [License](#license)
 
 ## Overview <a name="overview"></a>
@@ -132,6 +133,10 @@ daisyui: {
     themes: ["light", "dark", "cupcake", "corporate", "synthwave"],
 },
 ```
+
+## Acknowledgements
+
+- [Tom Dekan](https://tomdekan.com/articles/tailwind-with-django) for his helpful article on implementing Tailwind CSS with Django
 
 ## License <a name="license"></a>
 
