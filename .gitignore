@@ -68,3 +68,6 @@ htmlcov/
 .coverage.*
 coverage.xml
 *.cover
+
+# SQLite database
+*.sqlite3
