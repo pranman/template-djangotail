@@ -5,11 +5,8 @@ __pycache__/
 *.so
 .Python
 venv/
-myenv/
 env/
 ENV/
-env.bak/
-venv.bak/
 build/
 develop-eggs/
 dist/
@@ -31,6 +28,7 @@ wheels/
 local_settings.py
 media/
 staticfiles/
+db.sqlite3
 
 # Node
 node_modules/
@@ -47,7 +45,6 @@ theme/static/css/build/
 # Environment
 .env
 .venv
-.direnv
 
 # Editor/IDE
 .idea/
@@ -56,6 +53,10 @@ theme/static/css/build/
 *.swo
 *~
 .DS_Store
+
+# Cursor IDE
+.cursor/
+.cursor/rules/
 
 # Project specific
 *.bak
