@@ -1,8 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 venv/
 myenv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pyw
-*.pyz
+env/
+ENV/
+env.bak/
+venv.bak/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+media/
+staticfiles/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Tailwind/DaisyUI
+theme/static/css/dist/
+theme/static/css/build/
+
+# Environment
+.env
+.venv
+.direnv
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+*.bak
+*.tmp
+*.old
+.coverage
+htmlcov/
+.pytest_cache/
+.coverage.*
+coverage.xml
+*.cover

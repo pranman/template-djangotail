@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'MainApp'
+    'MainApp',
+    'tailwind',
+    'theme',
 ]
 
 MIDDLEWARE = [
@@ -117,8 +119,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [
+    BASE_DIR / 'theme' / 'static',
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Tailwind configuration
+TAILWIND_APP_NAME = 'theme'
+NPM_BIN_PATH = "C:\\Program Files\\nodejs\\npm.cmd"
+#mac
+#NPM_BIN_PATH = r"/opt/homebrew/bin/npm"
